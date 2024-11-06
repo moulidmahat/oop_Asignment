@@ -19,7 +19,7 @@ class Square(Shape):
     def area(self):
         return self.side ** 2
 
-# Example usage
+
 circle = Circle(5)
 square = Square(4)
 print("Circle Area:", circle.area())
